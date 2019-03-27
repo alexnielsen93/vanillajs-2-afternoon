@@ -256,7 +256,7 @@ function draw() {
 
     const ball = document.createElement('div');
     ball.classList.add('ball');
-    ball.style = style;
+    ball.style = ('style');
 
     ball.addEventListener('animationend', function(e) {
       e.target.remove();
